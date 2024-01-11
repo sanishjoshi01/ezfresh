@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    background-color: #f3f0eb;
+    height: 70px;
+}
+
+#logo{
+    width: 230px;
+    height: 70px;
+}
+
+.menuItems{
+        display: none;
+}
+@media (max-width: 1200px){
+    .header{
+        height: auto;
+        padding: 2%;
+    }
+    #rHeader #logcol{
+        margin: 1% 0 0 0;
+        width: 100%;
+    }
+    #rHeader #searchcol{
+        width: 70%;
+        margin: 2% 0 2% 0;
+    }
+    #rHeader .col-2{
+        width: 30%;
+        margin: 1% 0 1% 0;
+    }
+    #rHeader #iconcol{
+        width: 100%;
+        margin: 1% 0 1% 0;
+    }
+    .menuItems{
+        display: inline-block;
+    }
+}
+@media (max-width: 541px){
+    .icons > a{
+        font-size: small;
+    }
+    #rHeader .col-4{
+        width: 100%;
+        margin: 2% 0 2% 0;
+        height: 30px;
+    }
+    #rHeader .col-2{
+        width: 70%;
+        margin: 1% 0 1% 0;
+    }
+    #rHeader .col-4 .searchbar input{
+        height: 30px;
+        font-size: small;
+    }
+    #rHeader .col-4 .btn{
+        height: 30px;
+    }
+    #rHeader .col-2 .categoryDrop select{
+        height: 30px;
+        font-size: small;
+    }
+}
+@media (max-width: 477px){
+    .icons > a{
+        font-size: 10px;
+    }
+}
